@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polityka prywatności — HA Audyty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav aria-label="Nawigacja"><a href="index.html">← HA Audyty</a></nav>
+  <h1>Polityka prywatności</h1>
+  <p class="eyebrow">Wersja: 27 listopada 2026</p>
+  <h2>Cel i zakres danych</h2>
+  <p>HA Audyty jest prywatnym eksporterem diagnostyki własnej instalacji Home
+  Assistant. Przetwarza istniejące temperatury, czasy i jakość odczytów, stany
+  urządzeń, raporty, modele obserwacyjne i historię walidacji. Służą one
+  archiwizacji i analizie działania instalacji.</p>
+  <h2>Dostęp do Google Drive</h2>
+  <p>Aplikacja korzysta ze zgody OAuth właściciela konta Google. Żądany zakres
+  Drive technicznie umożliwia przeglądanie, tworzenie, edytowanie i usuwanie
+  plików całego Dysku. Konfiguracja eksportera ogranicza jego operacje do
+  wybranego prywatnego folderu audytów. To ograniczenie skryptu, a nie
+  uprawnienie Google do pojedynczego folderu.</p>
+  <h2>Przechowywanie i odbiorcy</h2>
+  <p>Raporty są przechowywane na urządzeniu Home Assistant i w prywatnym folderze
+  Google Drive właściciela. Eksporter nie publikuje raportów. Właściciel może
+  zlecić analizę przez własny konektor Google Drive w ChatGPT; taki dostęp
+  podlega ustawieniom i warunkom wybranej przez niego usługi.</p>
+  <p>Poświadczenia OAuth są przechowywane w prywatnym katalogu na urządzeniu HA.
+  Raporty nie zawierają tokenów, haseł ani kluczy prywatnych. Bieżący pakiet jest
+  aktualizowany, a historia źródeł i manifestów zachowywana. Okres przechowywania
+  ustala właściciel.</p>
+  <h2>Kontrola właściciela</h2>
+  <p>Właściciel może wyłączyć eksporter i cofnąć upoważnienie w ustawieniach konta
+  Google. Cofnięcie dostępu nie usuwa dotychczasowych plików; można je usunąć
+  oddzielnie w Drive i HA. Aplikacja nie prowadzi publicznej rejestracji kont.</p>
+  <h2>Ta strona</h2>
+  <p>Strona nie zawiera raportów, formularzy, analityki ani skryptów śledzących.
+  Dostawca hostingu GitHub Pages rejestruje adresy IP odwiedzających ze względów
+  bezpieczeństwa zgodnie z <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">polityką prywatności GitHub</a>.</p>
+  <footer>Kontakt: adres pomocy wskazany na ekranie zgody Google aplikacji HA Audyty.</footer>
+</main>
+</body>
+</html>
